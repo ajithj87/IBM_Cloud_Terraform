@@ -15,7 +15,7 @@ variable "iaas_classic_api_key" {
 }
 
 variable "region" {
-  type        = string
+  default     = "eu-de"
   description = "IBM Cloud region for the Kubernetes Cluster"
 }
 
